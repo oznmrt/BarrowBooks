@@ -1,0 +1,6 @@
+C:\Users\OzanMurat\source\repos\BarrowBooks\BarrowBooks.Utilities\bin\Debug\BarrowBooks.Utilities.dll
+C:\Users\OzanMurat\source\repos\BarrowBooks\BarrowBooks.Utilities\bin\Debug\BarrowBooks.Utilities.pdb
+C:\Users\OzanMurat\source\repos\BarrowBooks\BarrowBooks.Utilities\obj\Debug\BarrowBooks.Utilities.csprojAssemblyReference.cache
+C:\Users\OzanMurat\source\repos\BarrowBooks\BarrowBooks.Utilities\obj\Debug\BarrowBooks.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\OzanMurat\source\repos\BarrowBooks\BarrowBooks.Utilities\obj\Debug\BarrowBooks.Utilities.dll
+C:\Users\OzanMurat\source\repos\BarrowBooks\BarrowBooks.Utilities\obj\Debug\BarrowBooks.Utilities.pdb

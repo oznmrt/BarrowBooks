@@ -1,0 +1,28 @@
+﻿@model IEnumerable<BarrowBooks.Entites.Concrete.Book>
+@{
+    ViewBag.Title = "Show Books";
+}
+
+<h2>ShowBooks</h2>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>ISBN</th>
+            <th>Name</th>
+            <th>Author</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+        <tr>
+            <td>@book.ISBN</td>
+            <td>@book.Name</td>
+            <td>@book.Author</td>
+            <td>
+                @Html.ActionLink("Book Transaction", "BookTransaction", "Home", new { bookISBN = book.ISBN }, null)
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

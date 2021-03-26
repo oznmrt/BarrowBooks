@@ -1,0 +1,28 @@
+﻿@model BarrowBooks.UI.ViewModels.CreateBookTransactionViewModel
+@{
+    ViewBag.Title = "BookTransaction";
+}
+
+<h2>BookTransaction</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(m => m.TransactionData.BookISBN)
+    @Html.ValidationSummary(true)
+    <div class="form-group">
+        <label for="ISBN">ISBN: </label>
+        @Html.Label(Model.TransactionData.BookISBN.ToString())
+    </div>
+    <div class="form-group">
+        <label for="MemberId">Member</label>
+        @Html.DropDownListFor(m => m.TransactionData.MemberId, Model.Members as SelectList, null, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.TransactionData.MemberId)
+    </div>
+    <div class="form-group">
+        <label for="ReturnDate">Return Date</label>
+        @Html.TextBoxFor(m => m.TransactionData.ReturnDate, new { min = @DateTime.Now.ToString("yyyy-MM-dd"), max = Model.TransactionData.ReturnDate.ToString("yyyy-MM-dd"), type = "date", @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.TransactionData.ReturnDate)
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+}

@@ -1,0 +1,6 @@
+C:\Users\OzanMurat\source\repos\BarrowBooks\BarrowBooks.Entites\bin\Debug\BarrowBooks.Entites.dll
+C:\Users\OzanMurat\source\repos\BarrowBooks\BarrowBooks.Entites\bin\Debug\BarrowBooks.Entites.pdb
+C:\Users\OzanMurat\source\repos\BarrowBooks\BarrowBooks.Entites\obj\Debug\BarrowBooks.Entites.csprojAssemblyReference.cache
+C:\Users\OzanMurat\source\repos\BarrowBooks\BarrowBooks.Entites\obj\Debug\BarrowBooks.Entites.csproj.CoreCompileInputs.cache
+C:\Users\OzanMurat\source\repos\BarrowBooks\BarrowBooks.Entites\obj\Debug\BarrowBooks.Entites.dll
+C:\Users\OzanMurat\source\repos\BarrowBooks\BarrowBooks.Entites\obj\Debug\BarrowBooks.Entites.pdb
