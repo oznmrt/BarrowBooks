@@ -1,6 +1,0 @@
-C:\Users\OzanMurat\source\repos\BarrowBooks\BubbleSort\bin\Debug\BubbleSort.exe.config
-C:\Users\OzanMurat\source\repos\BarrowBooks\BubbleSort\bin\Debug\BubbleSort.exe
-C:\Users\OzanMurat\source\repos\BarrowBooks\BubbleSort\bin\Debug\BubbleSort.pdb
-C:\Users\OzanMurat\source\repos\BarrowBooks\BubbleSort\obj\Debug\BubbleSort.csproj.CoreCompileInputs.cache
-C:\Users\OzanMurat\source\repos\BarrowBooks\BubbleSort\obj\Debug\BubbleSort.exe
-C:\Users\OzanMurat\source\repos\BarrowBooks\BubbleSort\obj\Debug\BubbleSort.pdb
